@@ -5,7 +5,7 @@ public class ArrayInt {
   static Scanner sc = new Scanner(System.in);
 
   static void main() {
-    mostrarMenu("*** ARRAY DE INT ***");
+    mostrarMenu("ARRAY DE INT");
 
     int[] numeros = new int[5];
 

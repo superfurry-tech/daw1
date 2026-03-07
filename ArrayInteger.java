@@ -4,7 +4,6 @@
  * Haz un método que calcule el número mayor y el número menor devolviendo una lista de 2 números
  * */
 
-import metodos.Cartel;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -13,7 +12,8 @@ public class ArrayInteger {
   static final int NUMERO_DE_INTEGER_EN_ARRAY = 7;
 
   static void main(String[] args) {
-    Cartel.mostrarMenu("MAYOR Y MENOR EN UN ARRAY LIST");
+    mostrarMenu("MAYOR Y MENOR EN UN ARRAY LIST");
+
 
     ArrayList<Integer> listaInteger = new ArrayList<>();
 
@@ -57,6 +57,11 @@ public class ArrayInteger {
 
     System.out.println("Integer mayor: " + max);
     System.out.println("Integer menor: " + min);
+  }
+
+  public static void mostrarMenu (String titulo){
+    System.out.println();
+    System.out.println("--- " + titulo + " ---");
   }
 }
 
